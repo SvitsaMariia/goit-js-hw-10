@@ -1,6 +1,6 @@
-import {fetchBreeds} from './cat-api.js';
-import {fetchCatByBreed} from './cat-api.js';
-import {Notify} from 'notiflix';
+import { fetchBreeds } from './cat-api.js';
+import { fetchCatByBreed } from './cat-api.js';
+import { Notify } from 'notiflix';
 
 const refs = {
   breedSelect: document.querySelector('.breed-select'),
